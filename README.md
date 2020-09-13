@@ -17,7 +17,19 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+<!-- Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality. -->
+
+I like portfolios with darker color themes and want to start with page with just a single background and a title. After that keeping a more minimal approach that will change some things on hover.
+
+[This is a simple design for a contact page that I will probably go with something similar.](https://dev.zeroqode.com/contact)
+
+[Though I like the design of the contact form on this page.](https://focuslabllc.com/contact)
+
+[The font and minimalist style of this website is one of my favroites](https://www.marvinschwaibold.com/)
+
+[The scrolling transitions on this page are awesome.](https://www.northand.ca/)
+
+[A more contemporary looking website that I think in the end mine will look more like.](https://www.turtleinc.com/about/peter-komierowski)
 
 ## Google Sheet
 

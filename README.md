@@ -33,7 +33,9 @@ I like portfolios with darker color themes and want to start with page with just
 
 ## Google Sheet
 
-Include link to your google sheet here. Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0)
+<!-- Include link to your google sheet here. Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) -->
+
+[Here](https://docs.google.com/spreadsheets/d/1fwom458n4HiXVLeAwUxy5FJQU75m7EE_lQ9ovRO_ql4/edit#gid=0) is a link to my google sheet that holds all of my projects.
 
 ## Wireframes
 

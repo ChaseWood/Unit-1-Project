@@ -1,0 +1,37 @@
+body {
+	display: grid;
+	background-color: black;
+}
+
+h1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-family: Source Code Pro;
+	font-size: 80px;
+	/* font-style: italic; */
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+span {
+	color: #e09f3e;
+}
+
+div {
+    display: grid;
+	align-items: center;
+	justify-content: center;
+
+}
+
+a {
+    color: #F4F0EA;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Source Code Pro;
+    font-style: italic;
+    justify-content: center;
+}

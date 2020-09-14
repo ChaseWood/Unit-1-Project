@@ -48,7 +48,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 - [Mobile CONT.](https://imgur.com/9muRtTV)
 - [Tablet](https://imgur.com/uGzI6To)
 - [Computer](https://imgur.com/93HnAZe)
-- [Priorities](https://imgur.com/1jbGBbA)
+- [Priorities](https://imgur.com/YEhk8Um)
 
 ## Time/Priority Matrix
 

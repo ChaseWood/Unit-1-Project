@@ -52,9 +52,8 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 - [Mobile](https://imgur.com/r9j8Rky)
 - [Mobile CONT.](https://imgur.com/9muRtTV)
-- [Table](https://imgur.com/uGzI6To)
+- [Tablet](https://imgur.com/uGzI6To)
 - [Computer](https://imgur.com/93HnAZe)
-- [Time/Priority Matrix](https://imgur.com/3rNJCJ4)
 - [Priorities](https://imgur.com/1jbGBbA)
 
 
@@ -65,7 +64,8 @@ Wireframing Resources:
 
 ## Time/Priority Matrix
 
-[Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
+<!-- [Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg) -->
+- [Time/Priority Matrix](https://imgur.com/3rNJCJ4)
 
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix. This involves drawing a a square. In the middle of the square, on the x axis draw a line. The most left part of the line should start with 0hrs and the end of the line should include 2hrs. This line will be used to estimate how much time any one feature will take to complete.
 

@@ -21,11 +21,17 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 I like portfolios with darker color themes and want to start with page with just a single background and a title. After that keeping a more minimal approach that will change some things on hover.
 
+
+[The font and minimalist style of this website is one of my favroites](https://www.marvinschwaibold.com/)
+
+[The muted coloring with large lettering is something that I really like in the design of this website](https://wakawaka.world/)
+
+[This is an accounting website with similar design](https://sealco.ca/)
+
 [This is a simple design for a contact page that I will probably go with something similar.](https://dev.zeroqode.com/contact)
 
 [Though I like the design of the contact form on this page.](https://focuslabllc.com/contact)
 
-[The font and minimalist style of this website is one of my favroites](https://www.marvinschwaibold.com/)
 
 [The scrolling transitions on this page are awesome.](https://www.northand.ca/)
 
@@ -41,8 +47,16 @@ I like portfolios with darker color themes and want to start with page with just
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.
 
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+<!-- - [Mobile](https://i.imgur.com/P3iBEZf.jpg)
+- [Desktop](https://i.imgur.com/xpOWo0E.jpg) -->
+
+- [Mobile](https://imgur.com/r9j8Rky)
+- [Mobile CONT.](https://imgur.com/9muRtTV)
+- [Table](https://imgur.com/uGzI6To)
+- [Computer](https://imgur.com/93HnAZe)
+- [Time/Priority Matrix](https://imgur.com/3rNJCJ4)
+- [Priorities](https://imgur.com/1jbGBbA)
+
 
 Wireframing Resources:
 

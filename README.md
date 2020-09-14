@@ -8,19 +8,19 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 | Day   | Deliverable                                  | Status     |
 | ----- | -------------------------------------------- | ---------- |
-| Day 1 | Project Description                          | Incomplete |
+| Day 1 | Project Approvals                            | Incomplete |
 | Day 1 | Wireframes / Priority Matrix / Timeline      | Incomplete |
-| Day 3 | Core Application Structure (HTML, CSS, etc.) | Incomplete |
+| Day 1 | Core Application Structure (HTML, CSS, etc.) | Incomplete |
+| Day 2 | MVP functionality                            | Incomplete |
+| Day 3 | MVP responsive                               | Incomplete |
 | Day 4 | MVP & Bug Fixes                              | Incomplete |
+| Day 4 | Possible Post MVP                            | Incomplete |
 | Day 5 | Final Touches                                | Incomplete |
-| Day 6 | Present                                      | Incomplete |
+| Day 5 | Present                                      | Incomplete |
 
 ## Project Description
 
-<!-- Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality. -->
-
 I like portfolios with darker color themes and want to start with page with just a single background and a title. After that keeping a more minimal approach that will change some things on hover.
-
 
 [The font and minimalist style of this website is one of my favroites](https://www.marvinschwaibold.com/)
 
@@ -32,14 +32,11 @@ I like portfolios with darker color themes and want to start with page with just
 
 [Though I like the design of the contact form on this page.](https://focuslabllc.com/contact)
 
-
 [The scrolling transitions on this page are awesome.](https://www.northand.ca/)
 
 [A more contemporary looking website that I think in the end mine will look more like.](https://www.turtleinc.com/about/peter-komierowski)
 
 ## Google Sheet
-
-<!-- Include link to your google sheet here. Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) -->
 
 [Here](https://docs.google.com/spreadsheets/d/1fwom458n4HiXVLeAwUxy5FJQU75m7EE_lQ9ovRO_ql4/edit#gid=0) is a link to my google sheet that holds all of my projects.
 
@@ -47,15 +44,11 @@ I like portfolios with darker color themes and want to start with page with just
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.
 
-<!-- - [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg) -->
-
 - [Mobile](https://imgur.com/r9j8Rky)
 - [Mobile CONT.](https://imgur.com/9muRtTV)
 - [Tablet](https://imgur.com/uGzI6To)
 - [Computer](https://imgur.com/93HnAZe)
 - [Priorities](https://imgur.com/1jbGBbA)
-
 
 Wireframing Resources:
 
@@ -64,89 +57,82 @@ Wireframing Resources:
 
 ## Time/Priority Matrix
 
-<!-- [Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg) -->
 - [Time/Priority Matrix](https://imgur.com/3rNJCJ4)
-
-Include a full list of features that have been prioritized based on the `Time and Priority` Matix. This involves drawing a a square. In the middle of the square, on the x axis draw a line. The most left part of the line should start with 0hrs and the end of the line should include 2hrs. This line will be used to estimate how much time any one feature will take to complete.
-
-Now draw a vertical line on the y axis. The top of this line should have `High` and the bottom `Low`. This line will be used to assign a priority to to each feature you wish to include in the project.
-
-Now create a separate list starting with A and assign it one of the features. Continue to assign each feature a letter. Once complete add each letter to the matrix assigning based on what your feel it's prioirty is an how long it will take to implement. If any one feature takes longer than 2hrs to complete than break it down into smaller tasks and reassign them a new letter.
-
-Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo.
 
 ### MVP/PostMVP - 5min
 
-The functionality will then be divided into two separate lists: MPV and PostMVP. Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.
+These lists constitute what the customer would require our portfolio to have (Minimum Viable Product) and what they would like to have if time allows.
 
-<!-- #### MVP (examples)
-
-- Pull data using google json api
-- Render data on page
-- Allow user to choose favorites
-- Save their choices in firebase -->
 #### MVP
 
-- Pull data from google sheets
+- Landing Page
+- Nav Bar
+- About me/Profile Picture
+- Projects
+- Contact
+- Footer
 - Mobile/Tablet/Laptop views
-- All about/project/contact links functional
-
+- Boostrap
 
 #### PostMVP
 
-- Carousel of projects
-- Contact form actually functions 
+- Carousel/Movement of projects
 - Landing page fade on scroll
+- Blinking box at end of landing page
 
 ## Functional Components
 
-Based on the initial logic defined in the previous sections try and breakdown the logic further into functional components, and by that we mean functions. Try and capture what logic would need to be defined if the game was broken down into the following categories.
-
-Time frames are also key in the development cycle. You have limited time to code all phases of the game. Your estimates can then be used to evaluate game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
-
 #### MVP
 
-| Component               | Priority | Estimated Time | Actual Time |
-| ----------------------- | :------: | :------------: | :---------: |
-| Hamburger               |    H     |      1hr       |     hr      |
-| Project Previews        |    H     |      3hr       |     hr      |
-| Regular Nav             |    H     |      1hr       |     hr      |
-| Adding Form             |    H     |      2hr       |     hr      |
-| Other sections and flex |    M     |      3hr       |     hr      |
-| Working with API        |    H     |      2hrs      |     hr      |
-| Responsive              |    H     |      2hr       |     hr      |
-| Social Media Icons      |    L     |      1hr       |     hr      |
-| Bootstrap               |    H     |      3hr       |     hr      |
-| Total                   |          |    18 hrs      |     hrs     |
+| Component              | Priority | Estimated Time | Actual Time |
+| ---------------------- | :------: | :------------: | :---------: |
+| Landing Page functions |    H     |     1.5 hr     |     hr      |
+| Landing Page style     |    M     |      1 hr      |     hr      |
+| Nav Bar Hamburger      |    H     |     .5 hr      |     hr      |
+| Nav Bar About me/etc.  |    H     |      1 hr      |     hr      |
+| About me paragraph     |    M     |      1 hr      |     hr      |
+| About me picture       |    L     |     .5 hr      |     hr      |
+| Project Previews       |    H     |      2 hr      |     hr      |
+| Project links          |    H     |      2 hr      |     hr      |
+| Project styling        |    M     |      1 hr      |     hr      |
+| Contact Form           |    H     |      2 hr      |     hr      |
+| Contact style          |    M     |      1 hr      |     hr      |
+| Footer buttons         |    H     |      2 hr      |     hr      |
+| Footer style           |    M     |      1 hr      |     hr      |
+| Working with API       |    H     |     2 hrs      |     hr      |
+| Responsive             |    H     |      2 hr      |     hr      |
+| Bootstrap              |    H     |      3 hr      |     hr      |
+| Total                  |          |    23.5 hrs    |     hrs     |
 
 #### PostMVP
 
 | Component             | Priority | Estimated Time | Actual Time |
 | --------------------- | :------: | :------------: | :---------: |
-| Project Hover Opacity |    M     |      2hr       |     hr      |
-| Project Carousel      |    L     |      4hr       |     hr      |
-| Landing Page fade     |    L     |      3hr       |     hr      |
-| Total                 |          |      9hrs      |     hrs     |
+| Project Hover Opacity |    M     |      2 hr      |     hr      |
+| Project Carousel      |    L     |      4 hr      |     hr      |
+| Landing Page fade     |    L     |      3 hr      |     hr      |
+| Blinking box          |    L     |      2 hr      |     hr      |
+| Total                 |          |     11 hrs     |     hrs     |
 
 ## Additional Libraries
 
-Use this section to list all supporting libraries and thier role in the project.
+<!-- Use this section to list all supporting libraries and their role in the project. -->
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description
+<!-- Use this section to include a brief code snippet of functionality that you are proud of an a brief description
 
 ```
 function reverse(string) {
 	// here is the code to reverse a string of text
 }
-```
+``` -->
 
 ## Issues and Resolutions
 
-Use this section to list of all major issues encountered and their resolution.
+<!-- Use this section to list of all major issues encountered and their resolution. -->
 
 #### SAMPLE.....
 
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier  
-**RESOLUTION**: Missing comma after first object in sources {} object
+<!-- **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier
+**RESOLUTION**: Missing comma after first object in sources {} object -->

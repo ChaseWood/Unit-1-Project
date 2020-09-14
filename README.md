@@ -103,10 +103,10 @@ These lists constitute what the customer would require our portfolio to have (Mi
 
 | Component             | Priority | Estimated Time | Actual Time |
 | --------------------- | :------: | :------------: | :---------: |
-| Project Hover Opacity |    M     |      2 hr      |     hr      |
-| Project Carousel      |    L     |      4 hr      |     hr      |
-| Landing Page fade     |    L     |      3 hr      |     hr      |
-| Blinking box          |    L     |      2 hr      |     hr      |
+| Q: Project Hover Opacity |    M     |      2 hr      |     hr      |
+| R: Project Carousel      |    L     |      4 hr      |     hr      |
+| S: Landing Page fade     |    L     |      3 hr      |     hr      |
+| T: Blinking box          |    L     |      2 hr      |     hr      |
 | Total                 |          |     11 hrs     |     hrs     |
 
 ## Additional Libraries

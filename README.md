@@ -50,11 +50,6 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 - [Computer](https://imgur.com/93HnAZe)
 - [Priorities](https://imgur.com/1jbGBbA)
 
-Wireframing Resources:
-
-- [Mockflow](https://mockflow.com/app/#Wireframe)
-- [Figma](https://www.figma.com/)
-
 ## Time/Priority Matrix
 
 - [Time/Priority Matrix](https://imgur.com/3rNJCJ4)
@@ -86,22 +81,22 @@ These lists constitute what the customer would require our portfolio to have (Mi
 
 | Component              | Priority | Estimated Time | Actual Time |
 | ---------------------- | :------: | :------------: | :---------: |
-| Landing Page functions |    H     |     1.5 hr     |     hr      |
-| Landing Page style     |    M     |      1 hr      |     hr      |
-| Nav Bar Hamburger      |    H     |     .5 hr      |     hr      |
-| Nav Bar About me/etc.  |    H     |      1 hr      |     hr      |
-| About me paragraph     |    M     |      1 hr      |     hr      |
-| About me picture       |    L     |     .5 hr      |     hr      |
-| Project Previews       |    H     |      2 hr      |     hr      |
-| Project links          |    H     |      2 hr      |     hr      |
-| Project styling        |    M     |      1 hr      |     hr      |
-| Contact Form           |    H     |      2 hr      |     hr      |
-| Contact style          |    M     |      1 hr      |     hr      |
-| Footer buttons         |    H     |      2 hr      |     hr      |
-| Footer style           |    M     |      1 hr      |     hr      |
-| Working with API       |    H     |     2 hrs      |     hr      |
-| Responsive             |    H     |      2 hr      |     hr      |
-| Bootstrap              |    H     |      3 hr      |     hr      |
+| A: Landing Page functions |    H     |     1.5 hr     |     hr      |
+| B: Landing Page style     |    M     |      1 hr      |     hr      |
+| C: Nav Bar Hamburger      |    H     |     .5 hr      |     hr      |
+| D: Nav Bar About me/etc.  |    H     |      1 hr      |     hr      |
+| E: About me paragraph     |    M     |      1 hr      |     hr      |
+| F: About me picture       |    L     |     .5 hr      |     hr      |
+| G: Project Previews       |    H     |      2 hr      |     hr      |
+| H: Project links          |    H     |      2 hr      |     hr      |
+| I: Project styling        |    M     |      1 hr      |     hr      |
+| J: Contact Form           |    H     |      2 hr      |     hr      |
+| K: Contact style          |    M     |      1 hr      |     hr      |
+| L: Footer buttons         |    H     |      2 hr      |     hr      |
+| M: Footer style           |    M     |      1 hr      |     hr      |
+| N: Working with API       |    H     |     2 hrs      |     hr      |
+| O: Responsive             |    H     |      2 hr      |     hr      |
+| P: Bootstrap              |    H     |      3 hr      |     hr      |
 | Total                  |          |    23.5 hrs    |     hrs     |
 
 #### PostMVP

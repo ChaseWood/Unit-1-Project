@@ -79,22 +79,30 @@ Once complete tally up the time and determine how long the project will take to 
 
 The functionality will then be divided into two separate lists: MPV and PostMVP. Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.
 
-#### MVP (examples)
+<!-- #### MVP (examples)
 
 - Pull data using google json api
 - Render data on page
 - Allow user to choose favorites
-- Save their choices in firebase
+- Save their choices in firebase -->
+#### MVP
+
+- Pull data from google sheets
+- Mobile/Tablet/Laptop views
+- All about/project/contact links functional
+
 
 #### PostMVP
 
-- Anything else that is not MVP
+- Carousel of projects
+- Contact form actually functions 
+- Landing page fade on scroll
 
 ## Functional Components
 
 Based on the initial logic defined in the previous sections try and breakdown the logic further into functional components, and by that we mean functions. Try and capture what logic would need to be defined if the game was broken down into the following categories.
 
-Time frames are also key in the development cycle. You have limited time to code all phases of the game. Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
+Time frames are also key in the development cycle. You have limited time to code all phases of the game. Your estimates can then be used to evaluate game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
 #### MVP
 
@@ -103,24 +111,22 @@ Time frames are also key in the development cycle. You have limited time to code
 | Hamburger               |    H     |      1hr       |     hr      |
 | Project Previews        |    H     |      3hr       |     hr      |
 | Regular Nav             |    H     |      1hr       |     hr      |
-| Adding Form             |    H     |     1.5hr      |     hr      |
+| Adding Form             |    H     |      2hr       |     hr      |
 | Other sections and flex |    M     |      3hr       |     hr      |
-| Working with API        |    H     |      3hrs      |     hr      |
-| Responsive              |    H     |      3hr       |     hr      | hr |
+| Working with API        |    H     |      2hrs      |     hr      |
+| Responsive              |    H     |      2hr       |     hr      |
 | Social Media Icons      |    L     |      1hr       |     hr      |
-| Total                   |    H     |    15.5hrs     |     hrs     |
+| Bootstrap               |    H     |      3hr       |     hr      |
+| Total                   |          |    18 hrs      |     hrs     |
 
 #### PostMVP
 
 | Component             | Priority | Estimated Time | Actual Time |
 | --------------------- | :------: | :------------: | :---------: |
-| Project Hover         |    L     |      3hr       |     -hr     | hr |
-| Banner letters wiggle |    L     |      1hr       |     hr      |
-| Interactive Banner    |    M     |      4hr       |     hr      |
-| Materialize           |    H     |      4hr       |     -hr     | hr |
-| Bootstrap             |    H     |      4hr       |     hr      |
-| Make own icon         |    L     |      4hr       |     hr      |
-| Total                 |    H     |     20hrs      |     hrs     |
+| Project Hover Opacity |    M     |      2hr       |     hr      |
+| Project Carousel      |    L     |      4hr       |     hr      |
+| Landing Page fade     |    L     |      3hr       |     hr      |
+| Total                 |          |      9hrs      |     hrs     |
 
 ## Additional Libraries
 

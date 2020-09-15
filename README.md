@@ -79,8 +79,8 @@ These lists constitute what the customer would require our portfolio to have (Mi
 
 #### MVP
 
-| Component              | Priority | Estimated Time | Actual Time |
-| ---------------------- | :------: | :------------: | :---------: |
+| Component                 | Priority | Estimated Time | Actual Time |
+| ------------------------- | :------: | :------------: | :---------: |
 | A: Landing Page functions |    H     |     1.5 hr     |     hr      |
 | B: Landing Page style     |    M     |      1 hr      |     hr      |
 | C: Nav Bar Hamburger      |    H     |     .5 hr      |     hr      |
@@ -97,21 +97,24 @@ These lists constitute what the customer would require our portfolio to have (Mi
 | N: Working with API       |    H     |     2 hrs      |     hr      |
 | O: Responsive             |    H     |      2 hr      |     hr      |
 | P: Bootstrap              |    H     |      3 hr      |     hr      |
-| Total                  |          |    23.5 hrs    |     hrs     |
+| Total                     |          |    23.5 hrs    |     hrs     |
 
 #### PostMVP
 
-| Component             | Priority | Estimated Time | Actual Time |
-| --------------------- | :------: | :------------: | :---------: |
+| Component                | Priority | Estimated Time | Actual Time |
+| ------------------------ | :------: | :------------: | :---------: |
 | Q: Project Hover Opacity |    M     |      2 hr      |     hr      |
 | R: Project Carousel      |    L     |      4 hr      |     hr      |
 | S: Landing Page fade     |    L     |      3 hr      |     hr      |
 | T: Blinking box          |    L     |      2 hr      |     hr      |
-| Total                 |          |     11 hrs     |     hrs     |
+| Total                    |          |     11 hrs     |     hrs     |
 
 ## Additional Libraries
 
 <!-- Use this section to list all supporting libraries and their role in the project. -->
+
+- Bootstrap
+- JQuery
 
 ## Code Snippet
 
@@ -126,6 +129,8 @@ function reverse(string) {
 ## Issues and Resolutions
 
 <!-- Use this section to list of all major issues encountered and their resolution. -->
+
+Display: Grid in body was causing the hamburger not to show up in the mobile version.
 
 #### SAMPLE.....
 

@@ -1,6 +1,8 @@
 body {
-	display: grid;
-	background-color: black;
+	height: 600px;
+	/* display: grid; */
+	/* background-color: black; */
+	align-content: center;
 }
 
 h1 {
@@ -11,27 +13,43 @@ h1 {
 	font-family: Source Code Pro;
 	font-size: 80px;
 	/* font-style: italic; */
-    font-weight: 400;
-    margin-bottom: 0px;
+	font-weight: 400;
+	margin-bottom: 0px;
 }
 
 span {
 	color: #e09f3e;
 }
 
-div {
-    display: grid;
+/* display grid to center for mobile  */
+/* div {
+	/* display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-end; */
+} */
+
+a {
+	color: #f4f0ea;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: Source Code Pro;
+	font-style: italic;
+	/* justify-content: center; */
+}
+
+.bg-dark {
+	background-color: black!important;
+}
+
+.navbar-brand {
+	font-size: 30px;
 
 }
 
-a {
-    color: #F4F0EA;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 30px;
-    font-family: Source Code Pro;
-    font-style: italic;
-    justify-content: center;
+element.style {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
 }

@@ -15,44 +15,63 @@
 			href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap"
 			rel="stylesheet"
 		/>
-	</head>
+	</head> 
 	<body>
-		<!-- <h1>console.log(<span>chaseWood</span>)</h1>
-		<div>
-			<a href="">about</a>
-			<a href="">projects</a>
-			<a href="">contact</a>
-		</div> -->
+		<div id="landingContainer" class="container-fluid">
+			<div id="landingTitle" class="col-lg text-center">
+				<h1>console.log<br id="landingBreak">(<span id="landingSpan">chaseWood</span>)</h1>
+			</div>
+			<div id="landingLinksContainer" class="col-lg text-center">
+				<a href="" id="landingLinks">about</a>
+				<a href="" id="landingLinks">projects</a>
+				<a href="" id="landingLinks">contact</a>
+			</div>
+		</div>
 
 		<!-- NAV BAR START -->
+		<header id="topNavBar" class="continer-fluid sticky-top">
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+				<a id="mobileNavTitle" class="navbar-brand" href="#">(chaseWood)</a>
+				<a id="navTitle" class="navbar-brand" href="#">console.log(chaseWood)</a>
 
-		<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand" href="#">(chaseWood)</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-				aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-		
-			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-				<form class="form-inline my-2 my-lg-0">
-					<a class="navbar-nav nav-item active nav-link" href="#">About <span class="sr-only">(current)</span></a>
-					<a class="navbar-nav nav-item active nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
-					<a class="navbar-nav nav-item active nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
-				</form>
-			</div>
-		</nav>
-
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+					<div class="navbar-nav ">
+						
+						<a id="navTitleLinks" class="nav-item nav-link active" href="#">about <span class="sr-only">(current)</span></a>
+						<a id="navTitleLinks" class="nav-item nav-link active" href="#">projects <span class="sr-only">(current)</span></a>
+						<a id="navTitleLinks" class="nav-item nav-link active" href="#">contact <span class="sr-only">(current)</span></a>
+					</div>
+				</div>
+			</nav>
+		</header>
 		<!-- NAV BAR END -->
-		
-		<divimg class="container"><img src="https://i.imgur.com/cazbzfZ.jpg" class="img-fluid max-width: 100% height: auto" alt="profile picture"></divimg>
+		<!--ABOUT ME START-->
+		<div id="AboutMeContainer" class="container">
+			<div class=" row text-center">
+				<div class="col-sm-6">
+					<img src="https://i.imgur.com/cazbzfZ.jpg" id="profileImage" class="img-fluid max-width: 100% height: auto rounded" alt="profile picture">
+				</div>
+				<div class="row col-sm-6">
+					<div class="col-sm-12">
+						<h2>About</h2>
+						<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+							condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
+							Donec
+							sed odio dui. </p>
+						<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
 
-		<div3 class=" container col-md-4">
-			<h2>Heading</h2>
-			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-				condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
-				sed odio dui. </p>
-			<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-		</div3>
+			
+			</div>
+		<!--ABOUT ME END-->
 
 <div class="container">
 	<H2>"Things I have done"</H2>

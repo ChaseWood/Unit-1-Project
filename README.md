@@ -8,8 +8,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 | Day   | Deliverable                                  | Status     |
 | ----- | -------------------------------------------- | ---------- |
-| Day 1 | Project Approvals                            | Incomplete |
-| Day 1 | Wireframes / Priority Matrix / Timeline      | Incomplete |
+| Day 1 | Project Approvals                            | Complete |
+| Day 1 | Wireframes / Priority Matrix / Timeline      | Complete |
 | Day 1 | Core Application Structure (HTML, CSS, etc.) | Incomplete |
 | Day 2 | MVP functionality                            | Incomplete |
 | Day 3 | MVP responsive                               | Incomplete |

@@ -1,9 +1,7 @@
-/* body {
-	height: 600px;
-	display: grid;
-	background-color: black;
-	align-content: center;
-} */
+body {
+	display:grid;
+	width: 100%
+}
 
 /* h1 {
 	display: flex;
@@ -46,13 +44,9 @@
 	font-size: 30px;
 }
 
-.img-fluid {
-	max-width: 300px;
-}
-
 #landingContainer {
 	display: grid;
-	height: 400px;
+	height: 600px;
 	color: white;
 	background-color: black;
 	font-family: Source Code Pro;
@@ -92,13 +86,25 @@
 	font-size: 15px;
 }
 
-#AboutMeContainer {
+#aboutMeContainer {
 	display: grid;
+	grid-gap: 10px;
+	margin-top: 20px
 }
 
 #profileImage {
-	margin: 20px;
+	margin-left: 0;
+	margin-right: 0;
 }
+
+#aboutMeCard {
+	align-items: center;
+	align-content: center;
+	background-color: #f4f0ea;
+	margin-right: auto;
+}
+
+
 
 @media (min-width: 500px) {
 	#mobileNavTitle {

@@ -62,7 +62,7 @@
 							condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
 							Donec
 							sed odio dui. </p>
-						<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+						<p><a class="btn btn-secondary" href="#" role="button">Contact »</a></p>
 					</div>
 				</div>
 			</div>
@@ -73,8 +73,9 @@
 			</div>
 		<!--ABOUT ME END-->
 
-<div class="container">
-	<H2>"Things I have done"</H2>
+		<H2 id="headerProject" class="row justify-content-center">Projects</H2>
+
+<div class="container-fluid">
 	<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3"" >
 		<div class="col mb-4">
 			<div class="card">
@@ -108,25 +109,28 @@
 				</div>
 			</div>
 		</div>
-
-		</div>
-		
+	</div>
 </div>
 
-<div class="container">
-	<form>
-		<div class="row">
-			<div class="col">
-				<input type="text" class="form-control" placeholder="First name">
-			</div>
-			<div class="col">
-				<input type="text" class="form-control" placeholder="Last name">
-			</div>
-		</div>
-	</form>
-
-
-</div>
+<form id="contactContainer" class="container">
+	<H2 id="headerContact" class="row justify-content-center">Contact</H2>
+	<div class="form-group row">
+		<label class="col-sm-2" id="inputLabel" for="exampleFormControlInput1">Name</label>
+		<input type="name" class="form-control col-sm-10" id="exampleFormControlInput1" placeholder="Name">
+	</div>
+	<div class="form-group row">
+		<label class="col-sm-2" id="inputLabel" for="exampleFormControlInput1">Email</label>
+		<input type="email" class="form-control col-sm-10" id="exampleFormControlInput1" placeholder="Email">
+	</div>
+	
+	<div class="form-group row">
+		<label class="col-sm-2" id="inputLabel" for="exampleFormControlTextarea1">Message</label>
+		<textarea class="form-control col-sm-10" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+	</div>
+	<div class="container-fluid">
+		<button type="button" class="btn btn-secondary col-sm-4 justify-content-center">Submit</button>
+	</div>
+</form>
 
 
 

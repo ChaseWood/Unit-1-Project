@@ -104,6 +104,27 @@ body {
 	margin-right: auto;
 }
 
+#headerProject {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+#contactContainer {
+	max-width: 500px;
+	/* margin: 10px 10px 10px 10px */
+}
+
+#exampleFormControlTextarea1{
+	/* padding: auto; */
+}
+
+.form-control {
+	/* padding-right: 0px; */
+}
+
+.container-fluid {
+	width: 100%;
+}
 
 
 @media (min-width: 500px) {
@@ -114,6 +135,8 @@ body {
 	#landingBreak {
 		display: none;
 	}
+
+	
 }
 
 @media (max-width: 500px) {
@@ -123,5 +146,9 @@ body {
 
 	#landingLinksContainer {
 		display: grid;
+	}
+
+	#inputLabel {
+		display: none;
 	}
 }

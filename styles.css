@@ -1,6 +1,11 @@
+html {
+	overflow-x: hidden;
+}
+
 body {
-	display:grid;
-	width: 100%
+	display: grid;
+	width: 100%;
+	/* overflow-x: hidden; */
 }
 
 /* h1 {
@@ -53,9 +58,7 @@ body {
 	min-width: 375px;
 	align-items: center;
 	align-content: center;
-}
-
-#landingLinksContainer {
+	/* padding: 20px; */
 }
 
 #landingLinks {
@@ -65,10 +68,6 @@ body {
 
 #landingSpan {
 	color: #e09f3e;
-}
-
-#topNavBar {
-	min-width: 375;
 }
 
 #navTitle {
@@ -89,7 +88,7 @@ body {
 #aboutMeContainer {
 	display: grid;
 	grid-gap: 10px;
-	margin-top: 20px
+	margin-top: 20px;
 }
 
 #profileImage {
@@ -107,23 +106,57 @@ body {
 #headerProject {
 	padding-top: 40px;
 	padding-bottom: 30px;
+	margin-top: 20px;
 }
 
-#contactContainer {
-	max-width: 500px;
-	/* margin: 10px 10px 10px 10px */
+#contactInputContainer {
+	max-width: 400px;
+	margin-right: auto;
 }
 
-#exampleFormControlTextarea1{
-	/* padding: auto; */
+#contactInsideContainer {
+	display: flex;
 }
 
-.form-control {
-	/* padding-right: 0px; */
+#contactImg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.container-fluid {
+.fa-paper-plane	{
+	font-size: 200px;
+	margin-left: auto;
+	margin-right: 100px;
+	color: #e09f3e;
+}
+
+.footer {
 	width: 100%;
+	text-align: center;
+	background-color: black;
+	display: flex;
+	height: 40px;
+	align-items: center;
+	padding: 20px;
+	grid-gap: 10px;
+	justify-content: center;
+}
+
+.footerLinks {
+	color: white;
+	font-family: Source Code Pro;
+}
+
+.footer-bottom {
+	color: white;
+	font-family: Source Code Pro;
+	margin-left: auto;
+}
+
+.fa-linkedin-in {
+	margin-left: auto;
+	color: grey;
 }
 
 
@@ -135,8 +168,9 @@ body {
 	#landingBreak {
 		display: none;
 	}
-
 	
+
+
 }
 
 @media (max-width: 500px) {
@@ -147,8 +181,8 @@ body {
 	#landingLinksContainer {
 		display: grid;
 	}
-
-	#inputLabel {
-		display: none;
-	}
+	
+	#contactImg {
+	display: none;
+}
 }

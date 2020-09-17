@@ -124,7 +124,7 @@ body {
 	align-items: center;
 }
 
-.fa-paper-plane	{
+.fa-paper-plane {
 	font-size: 200px;
 	margin-left: auto;
 	margin-right: 100px;
@@ -159,6 +159,18 @@ body {
 	color: grey;
 }
 
+#projectImgContainer {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+#projectImgs {
+	grid-column: 1fr;
+}
+
+#projectImgAbout {
+	word-wrap: inherit;
+}
 
 @media (min-width: 500px) {
 	#mobileNavTitle {
@@ -168,9 +180,6 @@ body {
 	#landingBreak {
 		display: none;
 	}
-	
-
-
 }
 
 @media (max-width: 500px) {
@@ -181,8 +190,8 @@ body {
 	#landingLinksContainer {
 		display: grid;
 	}
-	
+
 	#contactImg {
-	display: none;
-}
+		display: none;
+	}
 }

@@ -4,19 +4,27 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<!-- JQUERY -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<!-- BOOTSTRAP -->
 		<link
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
 			crossorigin="anonymous"
 		/>
+
+		<!-- MY CSS -->
 		<link rel="stylesheet" href="styles.css" />
+
+		<!-- GOOGLE FONTS -->
 		<link
 			href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap"
 			rel="stylesheet"
 		/>
 
-		
+		<!-- FONT AWESOME -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" />
 
 	</head> 
@@ -57,7 +65,7 @@
 		<div id="aboutMeContainer" class="container">
 			<div id="aboutMeInsideContainer" class="row text-center">
 				<div id="profileImage" class="row col-sm-6">
-					<img src="https://i.imgur.com/cazbzfZ.jpg"  class="img-fluid max-width: 100% height: auto rounded" alt="profile picture">
+					<img src="https://res.cloudinary.com/degqpdcqn/image/upload/v1600373756/Portfolio/profile_pic_iq5th7.jpg"  class="img-fluid max-width: 100% height: auto rounded" alt="profile picture">
 				</div>
 				<div id="aboutMeCard" class="row col-sm-6 ml-auto">
 					<div class="col-sm-12">
@@ -68,58 +76,21 @@
 					</div>
 				</div>
 			</div>
-			
 		</div>
 
-			
-			</div>
+
 		<!--ABOUT ME END-->
 
-		<H2 id="headerProject" class="row justify-content-center">Projects</H2>
+		<!--PROJECTS START-->
+
+		<H2 id="headerProject">Projects</H2>
 
 		<div class="container-fluid">
-			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-				<div class="col mb-4">
-					<div class="card">
-						<img src="https://i.imgur.com/RVAjUkD.png" class="card-img-top" alt="..." data-toggle="collapse"
-							href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-						<div class="collapse" id="collapseExample">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-									content. This content is a little bit longer.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col mb-4">
-					<div class="card">
-						<img src="https://i.imgur.com/RVAjUkD.png" class="card-img-top" alt="..." data-toggle="collapse"
-							href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-						<div class="collapse" id="collapseExample">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-									content. This content is a little bit longer.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col mb-4">
-					<div class="card">
-						<img src="https://i.imgur.com/RVAjUkD.png" class="card-img-top" alt="..." data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-						<div class="collapse" id="collapseExample">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-									content. This content is a little bit longer.</p>
-							</div>
-						</div>
-					</div>
-				</div>
+			<div class="addedProjects row row-cols-1 row-cols-md-2 row-cols-lg-3">
 			</div>
 		</div>
+
+		<!--PROJECTS END-->
 
 		<form id="contactContainer" class="container">
 			<div id="contactInsideContainer" class="container">
@@ -156,6 +127,8 @@
 
 
 	</body>
+	<!-- OUR APP.JS -->
+	<script src="app.js"></script>
 	<script
 		src="https://code.jquery.com/jquery-3.5.1.js"
 		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="

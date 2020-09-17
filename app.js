@@ -25,8 +25,8 @@ const render = (projectsArr) => {
 							<div class="card-body">
 								<h5 class="card-title">${project.title}</h5>
                                 <p class="card-text">${project.description}</p>
-                                <a href=${project.gitHubRepo} target="_blank" class="btn btn-primary">Github Repo</a>
-                                <a href=${project.gitHubLive} target="_blank" class="btn btn-primary">Live Website</a>
+                                <a href=${project.gitHubRepo} target="_blank" class="projectBtnsStyle btn btn-primary">Github Repo</a>
+                                <a href=${project.gitHubLive} target="_blank" class="projectBtnsStyle btn btn-primary">Live Website</a>
 							</div>
 						</div>
 					</div>

@@ -5,6 +5,7 @@ html {
 body {
 	display: grid;
 	width: 100%;
+	background-color: #f4f0ea;
 	/* overflow-x: hidden; */
 }
 
@@ -88,7 +89,7 @@ body {
 #aboutMeContainer {
 	display: grid;
 	grid-gap: 10px;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 #profileImage {
@@ -103,11 +104,28 @@ body {
 	margin-right: auto;
 }
 
+.aboutName {
+	font-family: Shadows Into Light;
+	font-size: 65px;
+}
+
+.aboutParagraph {
+	font-family: Roboto Mono;
+	font-weight: 300;
+	font-size: 25px;
+}
+
 #headerProject {
 	padding-top: 40px;
 	padding-bottom: 30px;
 	margin-top: 20px;
 	text-align: center;
+	font-family: Roboto Mono;
+}
+
+.projectBtnsStyle {
+	background-color: #6c757d;
+	border: #6c757d;
 }
 
 #contactInputContainer {
@@ -117,6 +135,10 @@ body {
 
 #contactInsideContainer {
 	display: flex;
+}
+
+#headerContact {
+	font-family: Roboto Mono;
 }
 
 #contactImg {
@@ -159,7 +181,6 @@ body {
 	margin-left: auto;
 	color: grey;
 }
-
 
 @media (min-width: 500px) {
 	#mobileNavTitle {

@@ -159,18 +159,6 @@ body {
 	color: grey;
 }
 
-#projectImgContainer {
-	display: grid;
-	grid-template-columns: 1fr;
-}
-
-#projectImgs {
-	grid-column: 1fr;
-}
-
-#projectImgAbout {
-	word-wrap: inherit;
-}
 
 @media (min-width: 500px) {
 	#mobileNavTitle {

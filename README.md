@@ -91,8 +91,8 @@ These lists constitute what the customer would require our portfolio to have (Mi
 | M: Footer style           |    M     |      1 hr      |     .5 hr      |
 | N: Working with API       |    H     |     2 hrs      |     2 hrs     |
 | O: Responsive             |    H     |      2 hrs      |    3 hrs      |
-| P: Bootstrap              |    H     |      3 hrs      |     5 hrs      |
-| Total                     |          |    23.5 hrs    |     30 hrs     |
+| P: Bootstrap              |    H     |      3 hrs      |     8 hrs      |
+| Total                     |          |    23.5 hrs    |     33 hrs     |
 
 #### PostMVP
 
@@ -145,5 +145,3 @@ function reverse(string) {
 Display: Grid in body was causing the hamburger not to show up in the mobile version.
 
 My whole portfolio had a white line down the right side. I looked for this problem for a couple days for hours going through the HTML line by line and could not find it. At one of our stand ups Kenny went through it with me and we found it in about 2 mins... Sometimes it just takes fresh eyes.
-
-

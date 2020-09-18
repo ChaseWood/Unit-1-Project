@@ -9,59 +9,6 @@ body {
 	/* overflow-x: hidden; */
 }
 
-/* h1 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: white;
-	font-family: Source Code Pro;
-	font-size: 80px;
-	font-style: italic;
-	font-weight: 400;
-	margin-bottom: 0px;
-} */
-
-/* span {
-	color: #e09f3e;
-} */
-
-/* display grid to center for mobile  */
-/* div {
-	display: flex; 
-	align-items: center;
-	justify-content: flex-end; 
-} */
-
-/* a {
-	color: #f4f0ea;
-	margin: 20px;
-	text-decoration: none;
-	font-size: 30px;
-	font-family: Source Code Pro;
-	font-style: italic;
-	justify-content: center;
-} */
-
-.bg-dark {
-	background-color: black !important;
-}
-
-.navbar-brand {
-	font-size: 30px;
-}
-
-#landingContainer {
-	display: grid;
-	height: 600px;
-	color: white;
-	background-color: black;
-	font-family: Source Code Pro;
-	min-width: 375px;
-	align-items: center;
-	align-content: center;
-	/* padding: 20px; */
-}
-
 #landingLinks {
 	color: white;
 	font-family: Source Code Pro;

@@ -1,21 +1,16 @@
-// console.log('app.js');
-// console.log('this is $', $);
+
 
 let sheetUrl =
 	'https://docs.google.com/spreadsheets/d/1fwom458n4HiXVLeAwUxy5FJQU75m7EE_lQ9ovRO_ql4/edit?usp=sharing';
 
 let sheetID = '1fwom458n4HiXVLeAwUxy5FJQU75m7EE_lQ9ovRO_ql4';
 
-// below using string interpolation
-// let sheetAsJSON = `https://spreadsheets.google.com/feeds/list/${sheetID}/od6/public/values?alt=json`
 
 let sheetAsJSON =
 	'https://spreadsheets.google.com/feeds/list/1fwom458n4HiXVLeAwUxy5FJQU75m7EE_lQ9ovRO_ql4/od6/public/values?alt=json';
 
 const render = (projectsArr) => {
 	console.log('this is projectArr', projectsArr);
-	// this function will add the projects to the dom
-	// they will look amazing and beautiful
 	projectsArr.forEach((project) => {
 		$('.addedProjects').append(`
                 <div class="col mb-4">
@@ -35,8 +30,6 @@ const render = (projectsArr) => {
 };
 
 $.ajax({ url: sheetAsJSON }).then((data) => {
-	//return a new array of data..best way to do that is what? .map()
-	//      plural                         singular
 	const projects = data.feed.entry.map((project) => {
 		return {
 			title: project.gsx$title.$t,

@@ -9,6 +9,26 @@ body {
 	/* overflow-x: hidden; */
 }
 
+.bg-dark {
+	background-color: black !important;
+}
+
+.navbar-brand {
+	font-size: 30px;
+}
+
+#landingContainer {
+	display: grid;
+	height: 600px;
+	color: white;
+	background-color: black;
+	font-family: Source Code Pro;
+	min-width: 375px;
+	align-items: center;
+	align-content: center;
+	/* padding: 20px; */
+}
+
 #landingLinks {
 	color: white;
 	font-family: Source Code Pro;
@@ -88,7 +108,7 @@ body {
 .aboutParagraph {
 	font-family: Roboto Mono;
 	font-weight: 300;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 #headerProject {
@@ -98,7 +118,7 @@ body {
 	margin-bottom: auto;
 	text-align: center;
 	font-family: Roboto Mono;
-	background-color: #854939;
+	/* background-color: #854939; */
 }
 
 .addedProjects {

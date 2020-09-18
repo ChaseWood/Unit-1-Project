@@ -10,10 +10,10 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | ----- | -------------------------------------------- | ---------- |
 | Day 1 | Project Approvals                            | Complete |
 | Day 1 | Wireframes / Priority Matrix / Timeline      | Complete |
-| Day 1 | Core Application Structure (HTML, CSS, etc.) | Incomplete |
-| Day 2 | MVP functionality                            | Incomplete |
-| Day 3 | MVP responsive                               | Incomplete |
-| Day 4 | MVP & Bug Fixes                              | Incomplete |
+| Day 1 | Core Application Structure (HTML, CSS, etc.) | Complete |
+| Day 2 | MVP functionality                            | Complete |
+| Day 3 | MVP responsive                               | Complete |
+| Day 4 | MVP & Bug Fixes                              | Complete |
 | Day 4 | Possible Post MVP                            | Incomplete |
 | Day 5 | Final Touches                                | Incomplete |
 | Day 5 | Present                                      | Incomplete |
@@ -42,7 +42,6 @@ I like portfolios with darker color themes and want to start with page with just
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.
 
 - [Mobile](https://imgur.com/r9j8Rky)
 - [Mobile CONT.](https://imgur.com/9muRtTV)
@@ -118,6 +117,23 @@ These lists constitute what the customer would require our portfolio to have (Mi
 
 ## Code Snippet
 
+The code below is some cut together bits of Bootstrap that I was proud of putting together that made my projects move on click. 
+```
+<div class="col mb-4">
+					<div class="card">
+						<img src= ${project.image} class="card-img-top" alt="..." data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+						<div class="collapse" id="collapseExample">
+							<div class="card-body">
+								<h5 class="card-title">${project.title}</h5>
+                                <p class="card-text">${project.description}</p>
+                                <a href=${project.gitHubRepo} target="_blank" class="projectBtnsStyle btn btn-primary">Github Repo</a>
+                                <a href=${project.gitHubLive} target="_blank" class="projectBtnsStyle btn btn-primary">Live Website</a>
+							</div>
+						</div>
+					</div>
+				</div>`);
+```
+
 <!-- Use this section to include a brief code snippet of functionality that you are proud of an a brief description
 
 ```
@@ -131,6 +147,8 @@ function reverse(string) {
 <!-- Use this section to list of all major issues encountered and their resolution. -->
 
 Display: Grid in body was causing the hamburger not to show up in the mobile version.
+
+My whole portfolio had a white line down the right side. I looked for this problem for a couple days for hours going through the HTML line by line and could not find it. At one of our stand ups Kenny went through it with me and we found it in about 2 mins... Sometimes it just takes fresh eyes.
 
 #### SAMPLE.....
 

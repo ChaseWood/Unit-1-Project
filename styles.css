@@ -71,6 +71,35 @@ body {
 	color: #e09f3e;
 }
 
+.fa-i-cursor {
+	font-size: 30px;
+}
+
+/* Found the blinking functionality below from here http://jsfiddle.net/gaby/Vaysf/649/ originally from this stackoverflow question https://stackoverflow.com/questions/4450344/how-to-blink-a-div-in-jquery*/
+
+.blink{
+    -webkit-animation: blink 900ms infinite alternate;
+    -moz-animation: blink 900ms infinite alternate;
+    -o-animation: blink 900ms infinite alternate;
+    animation: blink 900ms infinite alternate;
+}
+@-webkit-keyframes blink {
+	from { opacity:1; }
+	to { opacity:0; }
+}
+@-o-keyframes blink {
+	from { opacity:1; }
+	to { opacity:0; }
+}
+@-moz-keyframes blink {
+	from { opacity:1; }
+	to { opacity:0; }
+}
+@keyframes blink {
+	from { opacity:1; }
+	to { opacity:0; }
+}
+
 #navTitle {
 	font-family: Source Code Pro;
 	font-size: 25px;
@@ -119,13 +148,24 @@ body {
 	padding-top: 40px;
 	padding-bottom: 30px;
 	margin-top: 20px;
+	margin-bottom: auto;
 	text-align: center;
 	font-family: Roboto Mono;
+	background-color: #854939;
+}
+
+.addedProjects {
+	background-color: #854939;
 }
 
 .projectBtnsStyle {
 	background-color: #6c757d;
 	border: #6c757d;
+}
+
+#contactContainer {
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 #contactInputContainer {

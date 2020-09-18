@@ -2,10 +2,6 @@
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 | Day   | Deliverable                                  | Status     |
 | ----- | -------------------------------------------- | ---------- |
 | Day 1 | Project Approvals                            | Complete |
@@ -14,8 +10,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | Day 2 | MVP functionality                            | Complete |
 | Day 3 | MVP responsive                               | Complete |
 | Day 4 | MVP & Bug Fixes                              | Complete |
-| Day 4 | Possible Post MVP                            | Incomplete |
-| Day 5 | Final Touches                                | Incomplete |
+| Day 4 | Possible Post MVP                            | Complete |
+| Day 5 | Final Touches                                | Complete |
 | Day 5 | Present                                      | Incomplete |
 
 ## Project Description
@@ -80,23 +76,23 @@ These lists constitute what the customer would require our portfolio to have (Mi
 
 | Component                 | Priority | Estimated Time | Actual Time |
 | ------------------------- | :------: | :------------: | :---------: |
-| A: Landing Page functions |    H     |     1.5 hr     |     hr      |
-| B: Landing Page style     |    M     |      1 hr      |     hr      |
-| C: Nav Bar Hamburger      |    H     |     .5 hr      |     hr      |
-| D: Nav Bar About me/etc.  |    H     |      1 hr      |     hr      |
-| E: About me paragraph     |    M     |      1 hr      |     hr      |
-| F: About me picture       |    L     |     .5 hr      |     hr      |
-| G: Project Previews       |    H     |      2 hr      |     hr      |
-| H: Project links          |    H     |      2 hr      |     hr      |
-| I: Project styling        |    M     |      1 hr      |     hr      |
-| J: Contact Form           |    H     |      2 hr      |     hr      |
-| K: Contact style          |    M     |      1 hr      |     hr      |
-| L: Footer buttons         |    H     |      2 hr      |     hr      |
-| M: Footer style           |    M     |      1 hr      |     hr      |
-| N: Working with API       |    H     |     2 hrs      |     hr      |
-| O: Responsive             |    H     |      2 hr      |     hr      |
-| P: Bootstrap              |    H     |      3 hr      |     hr      |
-| Total                     |          |    23.5 hrs    |     hrs     |
+| A: Landing Page functions |    H     |     1.5 hrs     |     1 hr      |
+| B: Landing Page style     |    M     |      1 hr      |     1 hr      |
+| C: Nav Bar Hamburger      |    H     |     .5 hr      |     .5 hr      |
+| D: Nav Bar About me/etc.  |    H     |      1 hr      |     3 hrs      |
+| E: About me paragraph     |    M     |      1 hr      |     1 hr      |
+| F: About me picture       |    L     |     .5 hr      |     1 hr      |
+| G: Project Previews       |    H     |      2 hrs      |     3 hrs      |
+| H: Project links          |    H     |      2 hrs      |     1 hr      |
+| I: Project styling        |    M     |      1 hr      |     2 hrs     |
+| J: Contact Form           |    H     |      2 hrs     |     3 hrs     |
+| K: Contact style          |    M     |      1 hr      |     2 hrs      |
+| L: Footer buttons         |    H     |      2 hrs      |     1 hr      |
+| M: Footer style           |    M     |      1 hr      |     .5 hr      |
+| N: Working with API       |    H     |     2 hrs      |     2 hrs     |
+| O: Responsive             |    H     |      2 hrs      |    3 hrs      |
+| P: Bootstrap              |    H     |      3 hrs      |     5 hrs      |
+| Total                     |          |    23.5 hrs    |     30 hrs     |
 
 #### PostMVP
 
@@ -105,8 +101,8 @@ These lists constitute what the customer would require our portfolio to have (Mi
 | Q: Project Hover Opacity |    M     |      2 hr      |     hr      |
 | R: Project Carousel      |    L     |      4 hr      |     hr      |
 | S: Landing Page fade     |    L     |      3 hr      |     hr      |
-| T: Blinking box          |    L     |      2 hr      |     hr      |
-| Total                    |          |     11 hrs     |     hrs     |
+| T: Blinking box          |    L     |      2 hr      |     1 hr      |
+| Total                    |          |     11 hrs     |     1 hrs     |
 
 ## Additional Libraries
 
@@ -150,7 +146,4 @@ Display: Grid in body was causing the hamburger not to show up in the mobile ver
 
 My whole portfolio had a white line down the right side. I looked for this problem for a couple days for hours going through the HTML line by line and could not find it. At one of our stand ups Kenny went through it with me and we found it in about 2 mins... Sometimes it just takes fresh eyes.
 
-#### SAMPLE.....
 
-<!-- **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier
-**RESOLUTION**: Missing comma after first object in sources {} object -->

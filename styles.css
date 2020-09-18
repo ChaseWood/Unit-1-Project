@@ -44,42 +44,61 @@ body {
 
 /* Found the blinking functionality below from here http://jsfiddle.net/gaby/Vaysf/649/ originally from this stackoverflow question https://stackoverflow.com/questions/4450344/how-to-blink-a-div-in-jquery*/
 
-.blink{
-    -webkit-animation: blink 900ms infinite alternate;
-    -moz-animation: blink 900ms infinite alternate;
-    -o-animation: blink 900ms infinite alternate;
-    animation: blink 900ms infinite alternate;
+.blink {
+	-webkit-animation: blink 900ms infinite alternate;
+	-moz-animation: blink 900ms infinite alternate;
+	-o-animation: blink 900ms infinite alternate;
+	animation: blink 900ms infinite alternate;
 }
 @-webkit-keyframes blink {
-	from { opacity:1; }
-	to { opacity:0; }
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
 }
 @-o-keyframes blink {
-	from { opacity:1; }
-	to { opacity:0; }
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
 }
 @-moz-keyframes blink {
-	from { opacity:1; }
-	to { opacity:0; }
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
 }
 @keyframes blink {
-	from { opacity:1; }
-	to { opacity:0; }
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
 }
 
 #navTitle {
 	font-family: Source Code Pro;
 	font-size: 25px;
+	color: #e09f3e;
 }
 
 #mobileNavTitle {
 	font-family: Source Code Pro;
 	font-size: 15px;
+	color: #e09f3e;
 }
 
 #navTitleLinks {
 	font-family: Source Code Pro;
 	font-size: 15px;
+	color: #e09f3e;
 }
 
 #aboutMeContainer {
@@ -91,6 +110,7 @@ body {
 #profileImage {
 	margin-left: 0;
 	margin-right: 0;
+	max-height: 263px;
 }
 
 #aboutMeCard {
@@ -118,7 +138,7 @@ body {
 	margin-bottom: auto;
 	text-align: center;
 	font-family: Roboto Mono;
-	/* background-color: #854939; */
+	background-color: #854939;
 }
 
 .addedProjects {
@@ -182,11 +202,16 @@ body {
 	color: white;
 	font-family: Source Code Pro;
 	margin-left: auto;
+	margin-right: auto;
+}
+
+.fa-github {
+	margin-left: auto;
+	color: #e09f3e;
 }
 
 .fa-linkedin-in {
-	margin-left: auto;
-	color: grey;
+	color: #e09f3e;
 }
 
 @media (min-width: 500px) {

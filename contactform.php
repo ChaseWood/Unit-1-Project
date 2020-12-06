@@ -1,7 +1,7 @@
 
 
 
-<?php
+<!-- <?php
 if (isset($_POST['Email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
@@ -76,7 +76,7 @@ if (isset($_POST['Email'])) {
 
 <?php
 }
-?>
+?> -->
 
 
 

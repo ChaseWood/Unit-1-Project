@@ -11,4 +11,4 @@
 
     mail($mailTo, $subject, $txt, $headers);
     header("Location: index.php?mailsend");
-}
+}?>

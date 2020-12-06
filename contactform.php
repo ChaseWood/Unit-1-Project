@@ -5,10 +5,10 @@
     $mailFrom = $_POST['email'];
     $message = $_POST['message'];
 
-    $mailTo = "rchasewood@gmail.com";
+    $to = "rchasewood@gmail.com";
     $headers = "From: ".$mailFrom;
     $txt = "You have received an email from" .$name.".\n\n".$message;
 
-    mail($mailTo, $subject, $txt, $headers);
+    mail($to, $subject, $txt, $headers);
     header("Location: index.php?mailsend");
 }?>

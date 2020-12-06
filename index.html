@@ -109,9 +109,9 @@
 		<!--PROJECTS END-->
 
 		<!-- CONTACT START -->
-		<form id="contactContainer" class="container">
+		<form  method="post" action="contactform.php" id="contactContainer" class="container">
 			<div id="contactInsideContainer" class="container">
-				<div action="mailto:rchasewood@gmail.com" method="post" enctype="multipart/form-data" name="form" id="contactInputContainer" class="container">
+				<div name="form" id="contactInputContainer" class="container">
 					<H2 id="headerContact" class="row justify-content-center">Contact</H2>
 					<div class="form-group row">
 						<input type="name" name="name" class="form-control col-sm-12 col" id="exampleFormControlInput1" placeholder="Name">
@@ -127,7 +127,7 @@
 						<textarea name="message" class="form-control col-sm-12" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
 					</div>
 					<div class="form-group row">
-						<button type="submit" name="submit" class="btn btn-secondary col-sm-12 justify-content-center">Submit</button>
+						<input type="submit" name="submit" class="btn btn-secondary col-sm-12 justify-content-center"></input>
 					</div>
 				</div>
 				<div id="contactImg">

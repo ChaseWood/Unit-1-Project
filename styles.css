@@ -19,7 +19,7 @@ body {
 
 #landingContainer {
 	display: grid;
-	height: 600px;
+	height: 800px;
 	color: white;
 	background-color: black;
 	font-family: Source Code Pro;
@@ -105,7 +105,9 @@ body {
 	display: grid;
 	grid-gap: 10px;
 	margin-top: 30px;
-	height: fit-content;
+	height: 800px;
+	align-items: center;
+	align-content: center;
 }
 
 #profileImage {
@@ -144,6 +146,8 @@ body {
 	font-family: Roboto Mono;
 	font-weight: 300;
 	font-size: 20px;
+	text-align: justify;
+	text-indent: 50px;
 }
 
 #headerProject {
@@ -220,13 +224,33 @@ body {
 	margin-right: auto;
 }
 
-.fa-github {
+.footer-github {
 	margin-left: auto;
 	color: #e09f3e;
 }
 
-.fa-linkedin-in {
+.footer-linkedin {
 	color: #e09f3e;
+}
+
+.about-me-github {
+	margin-left: auto;
+	color: black;
+	font-size: 35px;
+	vertical-align: bottom;
+	transform: translateY(-10%);
+}
+
+.contact-link-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.about-me-linkedin {
+	color: black;
+	font-size: 35px;
+	vertical-align: bottom;
+	transform: translateY(-10%);
 }
 
 @media (min-width: 500px) {
